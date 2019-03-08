@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/galaxy-body.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#header-card, #title-jumbo {
+    background-image: radial-gradient(#040406, #031a44, #5ac1a6);
+}
+
+#table-header, #add-spaceship-btn {
+    background-color: #031a44;
+}
+
+#table-body, #form {
+    color: #031a44;
+}
+
+/* #105f59
+#084079 */

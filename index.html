@@ -19,7 +19,7 @@
     <div class="container mt-3">
 
         <!-- jumbotron for the header -->
-        <div class="jumbotron">
+        <div id="title-jumbo" class="jumbotron p-4 text-white">
             <h1 class="text-center">Spaceship schedule</h1>
             <h3 class="text-center">To be on time anywhere, <em>really</em> anywhere!</h3>
         </div>
@@ -29,10 +29,10 @@
             <div class="col-md-12">
                 <!-- card to display the current spaceship info -->
                 <div class="card mb-4">
-                    <div class="card-header">Current Spaceship Schedule</div>
+                    <div id="header-card" class="card-header text-white text-center">Current Spaceship Schedule</div>
                     <div class="card-body">
                         <table class="table table-sm table-hover text-center" id='spaceship-table'>
-                            <thead>
+                            <thead id="table-header" class="text-white">
                                 <tr>
                                     <th scope="col">Spaceship Name</th>
                                     <th scope="col">Destination</th>
@@ -55,10 +55,10 @@
             <div class="col-md-12">
                 <!-- card to enter spaceship info and add them -->
                 <div class="card mb-4">
-                    <div class="card-header">Add Spaceship</div>
+                    <div id="header-card" class="card-header text-white text-center">Add Spaceship</div>
                     <div class="card-body">
                         <!-- form for the user input -->
-                        <form>
+                        <form id="form">
                             <div class="form-group">
                                 <label for="spaceship-name-input">Spaceship Name</label>
                                 <input class="form-control" id="spaceship-name-input" type="text">
@@ -75,7 +75,7 @@
                                 <label for="frequency-input">Frequency (in min)</label>
                                 <input class="form-control" id="frequency-input" type="text">
                             </div>
-                            <button class="btn bg-dark text-white" id="add-spaceship-btn">Submit</button>
+                            <button class="btn text-white" id="add-spaceship-btn">Submit</button>
                         </form>
                     </div>
                 </div>
