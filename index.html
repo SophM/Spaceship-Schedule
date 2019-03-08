@@ -8,6 +8,8 @@
     <!-- link to Bootstrap's css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- link to Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <!-- link to my css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Spaceship Schedule</title>
@@ -31,20 +33,22 @@
                 <div class="card mb-4">
                     <div id="header-card" class="card-header text-white text-center">Current Spaceship Schedule</div>
                     <div class="card-body">
-                        <table class="table table-sm table-hover text-center" id='spaceship-table'>
-                            <thead id="table-header" class="text-white">
-                                <tr>
-                                    <th scope="col">Spaceship Name</th>
-                                    <th scope="col">Destination</th>
-                                    <th scope="col">Frequency (min)</th>
-                                    <th scope="col">Next Arrival</th>
-                                    <th scope="col">Minutes Away</th>
-                                </tr>
-                            </thead>
-                            <!-- body of the table to be filled up with data saved in Firebase database -->
-                            <tbody id = "table-body">
-                            </tbody>
-                        </table>
+                        <div class="table-responsive-md">
+                            <table class="table table-sm table-hover text-center" id='spaceship-table'>
+                                <thead id="table-header" class="text-white">
+                                    <tr>
+                                        <th scope="col">Spaceship Name</th>
+                                        <th scope="col">Destination</th>
+                                        <th scope="col">Frequency (min)</th>
+                                        <th scope="col">Next Arrival</th>
+                                        <th scope="col">Minutes Away</th>
+                                    </tr>
+                                </thead>
+                                <!-- body of the table to be filled up with data saved in Firebase database -->
+                                <tbody id = "table-body">
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
