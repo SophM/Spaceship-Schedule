@@ -21,6 +21,4 @@
 
 5. Then the information are retrieved from the Firebase database and displayed in the "Current Spaceship schedule".  
 
-6. The "next arrival" and "minutes away" variables are relative to the CURRENT time and are computed from the data backed up in the database:
-    - "next arrival" is calculated from the current time, the frequency and the first spaceship time (Moment.js)
-    - "minutes away" is calculated from the current time and "next arrival" (Moment.js)
+6. The "next arrival" and "minutes away" variables are relative to the CURRENT time and are computed - with Moment.js - from the data backed up in the database, namely the frequency and the first spaceship time.
