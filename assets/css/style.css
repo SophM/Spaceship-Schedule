@@ -11,6 +11,10 @@ body {
     background-image: radial-gradient(#040406, #031a44, #5ac1a6);
 }
 
+.card {
+    opacity: 0.9;
+}
+
 #table-header, #add-spaceship-btn {
     background-color: #031a44;
 }

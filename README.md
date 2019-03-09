@@ -1,6 +1,6 @@
 # Spaceship-Schedule
 
-In this project, I built an app to keep track of the spaceship launch schedule. The app has a responsive layout and can be visited on different devies.
+In this project, I built an app to keep track of the spaceship launch schedule. The app has a responsive layout and can be visited on different devices.
 
 [Click me to check the app out!](https://sophm.github.io/Spaceship-Schedule/)
 
