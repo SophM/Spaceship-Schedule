@@ -22,7 +22,7 @@ To build this project, I used the following technologies:
 - CSS
 - Bootstrap
 - JavaScript/jQuery
-- Moment.js
+- Firebase
 
 ---
 
