@@ -5,8 +5,8 @@ In this project, I built an app to keep track of the spaceship launch schedule. 
 [Click me to check the app out!](https://sophm.github.io/Spaceship-Schedule/)
 
 This app has two main parts (excluding the main header):
-    - a top section to display the information of the different spaceships.
-    - a bottom section to enter the information of a new spaceship.
+- a top section to display the information of the different spaceships.
+- a bottom section to enter the information of a new spaceship.
 
 To add a spaceship, there are 4 pieces of information to enter: the name of the spaceship, its destination, its first departure time and its frequency. Those information are automatically backed up in a Firebase database upon submission.
 
