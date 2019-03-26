@@ -36,3 +36,9 @@ To build this project, I used the following technologies:
 
 ![GIF to show the responsive layout of the app](https://github.com/SophM/Spaceship-Schedule/blob/master/assets/screenshot_gif_for_readme/gif_responsive_layout.gif?raw=true)
 
+--- 
+
+### Contribution
+
+- Sophie Mallez
+
