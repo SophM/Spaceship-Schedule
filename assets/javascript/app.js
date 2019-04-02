@@ -60,7 +60,7 @@ function nextArrivalMinutesAway(firstSpaceshipTime, frequency) {
 
 // store the user input data when the user clicks the "submit" button
 // and back those data up in the Firebase database
-$("#add-spaceship-btn").on("click", function(event) {
+$("#form-spaceship").on("submit", function(event) {
     // prevent the page from refreshing
     event.preventDefault();
 

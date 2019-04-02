@@ -62,24 +62,24 @@
                     <div id="header-card" class="card-header text-white text-center font-weight-bold">Add Spaceship</div>
                     <div class="card-body">
                         <!-- form for the user input -->
-                        <form id="form">
+                        <form id="form-spaceship">
                             <div class="form-group font-weight-bold">
                                 <label for="spaceship-name-input">Spaceship Name</label>
-                                <input class="form-control" id="spaceship-name-input" type="text">
+                                <input class="form-control" id="spaceship-name-input" type="text" required>
                             </div>
                             <div class="form-group font-weight-bold">
                                 <label for="destination-input">Destination</label>
-                                <input class="form-control" id="destination-input" type="text">
+                                <input class="form-control" id="destination-input" type="text" required>
                             </div>
                             <div class="form-group font-weight-bold">
                                 <label for="first-spaceship-input">First spaceship departure (HH:mm - military time)</label>
-                                <input class="form-control" id="first-spaceship-input" type="text">
+                                <input class="form-control" id="first-spaceship-input" type="text" required>
                             </div>
                             <div class="form-group font-weight-bold">
                                 <label for="frequency-input">Frequency (in min)</label>
-                                <input class="form-control" id="frequency-input" type="number" min="1">
+                                <input class="form-control" id="frequency-input" type="number" min="1" required>
                             </div>
-                            <button class="btn text-white font-weight-bold" id="add-spaceship-btn">Submit</button>
+                            <button type=submit class="btn text-white font-weight-bold" id="add-spaceship-btn">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -90,18 +90,15 @@
 
     <!-- link to the firebase's javascript file -->
     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <!-- link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- link the bootstrap's javascript files -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <!-- link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- link to Moment.js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- link my javascript file -->
